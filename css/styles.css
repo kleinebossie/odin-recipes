@@ -16,6 +16,7 @@ body {
 
 .link-button {
   margin: 2em;
+  display: block;
 }
 
 .submit-button {
