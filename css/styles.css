@@ -1,14 +1,11 @@
-* {
+body {
+  background-color: hsl(0deg 0% 20%);
+  color: hsl(0deg 0% 100%);
   box-sizing: border-box;
   font-family: Lexend, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   text-align: center;
-}
-
-body {
-  background-color: hsl(0deg 0% 20%);
-  color: hsl(0deg 0% 100%);
 }
 
 .button-list {
@@ -28,7 +25,7 @@ body {
   padding: 0.3em;
   border: 3px solid hsl(0deg 0% 45%);
   border-radius: 8px;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
 }
 
 .submit-button:hover {
@@ -36,5 +33,23 @@ body {
   color: hsl(0deg 0% 0%);
   border: 3px solid hsl(0deg 0% 55%);
   border-radius: 8px;
-  cursor:pointer;
+  cursor: pointer;
+}
+
+.recipe-description {
+  text-align: left;
+  float: left;
+  width: 55%;
+  padding: 10px;
+}
+
+.recipe-image {
+  display: inline-block;
+  padding: 10px;
+  width: 35%;
+}
+
+img {
+  border-radius: 8px;
+  width: 100%;
 }
